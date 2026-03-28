@@ -77,7 +77,8 @@ st.markdown("---")
 if st.button("🚀 Predict Marks"):
     
     # Replace with your actual model prediction
-    predicted_marks = 92.45  
+   
+    predicted_marks = (study_hours * 5) + (attendance * 0.3) + (sleep_hours * 2)
 
     st.markdown(f"""
         <div style="
